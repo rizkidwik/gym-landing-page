@@ -1,6 +1,7 @@
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
+import Equipments from './components/Equipments/Equipments'
 import BgImage from "./assets/bg.png"
 
 const bgStyle = {
@@ -18,6 +19,7 @@ function App() {
             <Navbar/>
             <Hero/>
         </div>
+        <Equipments/>
     </div>
   )
 }
