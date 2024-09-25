@@ -40,6 +40,8 @@ const Hero = () => {
                 <div className="flex justify-center items-center">
                     <motion.img 
                     variants={SlideLeft(1.5)}
+                    initial="hidden"
+                    animate="visible"
                     src={HeroImg} className='w-[350px] md:w-[550px] xl:w-[700px] drop-shadow'/>
                 </div>
             </div>

@@ -1,8 +1,6 @@
 import React from 'react'
 import {motion,AnimatePresence} from 'framer-motion'
-type ResponsiveMenuProps = {
-    open: boolean
-}
+import { ResponsiveMenuProps } from '../../types/ResponsiveMenu.types'
 
 const ResponsiveMenu: React.FC<ResponsiveMenuProps> = ({open}) => {
     return (
