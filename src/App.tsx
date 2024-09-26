@@ -3,7 +3,7 @@ import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
 import Equipments from './components/Equipments/Equipments'
 import Banner from './components/Banner/Banner'
-
+import Tab from './components/Tab/Tab'
 import BgImage from "./assets/bg.png"
 
 import { BannerData, Banner2Data } from './mockData/data'
@@ -26,6 +26,7 @@ function App() {
         </div>
         <Equipments/>
         <Banner {...BannerData} />
+        <Tab/>
         <Banner {...Banner2Data} />
     </div>
   )
