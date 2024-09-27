@@ -81,3 +81,42 @@ export const ProductsData = [
         img: TabImg1
     },
 ]
+
+export const TestimonialsData = [
+    {
+        id: 1,
+        name: "John Doe",
+        text: "Lorem ipsum dolor sit ammet constectur adipiscing eli. Equeam erat volutpat. Quasd",
+        img: "https://randomuser.me/api/portraits/men/1.jpg",
+        delay: 0.3
+    },
+    {
+        id: 2,
+        name: "Jane Doe",
+        text: "Lorem ipsum dolor sit ammet constectur adipiscing eli. Equeam erat volutpat. Quasd",
+        img: "https://randomuser.me/api/portraits/men/2.jpg",
+        delay: 0.6
+    },
+    {
+        id: 3,
+        name: "Karen Doe",
+        text: "Lorem ipsum dolor sit ammet constectur adipiscing eli. Equeam erat volutpat. Quasd",
+        img: "https://randomuser.me/api/portraits/men/3.jpg",
+        delay: 0.9
+    },
+    {
+        id: 4,
+        name: "Mark Doe",
+        text: "Lorem ipsum dolor sit ammet constectur adipiscing eli. Equeam erat volutpat. Quasd",
+        img: "https://randomuser.me/api/portraits/men/4.jpg",
+        delay: 1.2
+    },
+    {
+        id: 5,
+        name: "Nick Doe",
+        text: "Lorem ipsum dolor sit ammet constectur adipiscing eli. Equeam erat volutpat. Quasd",
+        img: "https://randomuser.me/api/portraits/men/5.jpg",
+        delay: 1.5
+    }
+
+]

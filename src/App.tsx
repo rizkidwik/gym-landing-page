@@ -4,6 +4,7 @@ import Hero from './components/Hero/Hero'
 import Equipments from './components/Equipments/Equipments'
 import Banner from './components/Banner/Banner'
 import Tab from './components/Tab/Tab'
+import Testimonials from './components/Testimonials/Testimonials'
 import BgImage from "./assets/bg.png"
 
 import { BannerData, Banner2Data } from './mockData/data'
@@ -28,6 +29,7 @@ function App() {
         <Banner {...BannerData} />
         <Tab/>
         <Banner {...Banner2Data} />
+        <Testimonials/>
     </div>
   )
 }
