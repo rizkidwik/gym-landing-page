@@ -62,7 +62,8 @@ const Testimonials = () => {
                     {
                         TestimonialsData.map((data) => (
                             <div key={data.id} className='my-6'>
-                                <div className="flex flex-col gap-4 p-6">
+                                <div className="flex flex-col gap-4 p-8 
+                                shadow-lg mx-4 rounded-xl bg-primary/10">
                                     {/* upper section */}
                                     <div className="flex justify-start items-center gap-5">
                                         <img src={data.img} alt="" className='rounded-full w-16 h-16'/>
