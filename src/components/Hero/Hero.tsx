@@ -1,7 +1,7 @@
 import { FaPlay } from "react-icons/fa";
 import HeroImg from "../../assets/dumbell.png";
 import { motion } from "framer-motion";
-import { SlideLeft, SlideRight, SlideUp } from "../../utility/animation";
+import { SlideLeft, SlideRight } from "../../utility/animation";
 
 const Hero = () => {
   return (
